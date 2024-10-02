@@ -80,7 +80,7 @@ section {
 .btn {
 
     background: var(--main-color);
-    color: #ffff;
+    color: #010103;
     padding: 1rem 3rem;
     font-size: 1.7rem;
     cursor: pointer;
@@ -92,11 +92,13 @@ section {
 
 .btn:hover {
     letter-spacing: 0.1rem;
+    background-color: #13131a;
+    color: #fff;
 
 }
 
 .home-container {
-    background: url("./img/menu-1_files/home-img.jpg");
+    background: url("./img/home-img.jpg");
     background-position: center;
     background-size: cover;
 
@@ -147,7 +149,7 @@ section {
 .about .row {
     display: flex;
     align-items: center;
-    background-color: var(--black);
+    background-color:--black #13131a;
     gap: 1.5rem;
 
 }
@@ -216,12 +218,12 @@ section {
 }
 
 .menu .box-container .box:hover {
-    background-color: #fff;
+    background-color: #13131a;
 
 }
 
 .menu .box-container .box:hover>* {
-    color: var(--bg);
+    color: #fff;
 
 }
 
